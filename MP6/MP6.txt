@@ -1,0 +1,7 @@
+For my final project I will be implementing an automatic focus stacking algorithm in order to get an image that has nearly infinite depth of field.  In order to do this I will take a handful of photos of the same subject, where everything will be held constant except for the focal distance.  Then the images will be aligned in order to compensate for any zooming introduced in the movement of the focal element.  Once the images are aligned, the program will find the portions of the images that are in focus and create a new image comprised only of in-focus areas of the originals.  
+
+Additionally I would like to try and manipulate the image to create an arbitrary focal point, with different virtual aperture sizes.  Since we can get an idea of the distances pixels are from each other based on which image has that pixel in focus, I should be able to simulate an image that was taken with different apertures, and with different focal lengths.  I should also be able to create a photo that has 2 or more focal planes in the image, to allow the picture to have objects in focus in multiple depths of the image.
+
+The papers that I will be drawing on for this project are attached.  They are:
+1. Joint Focus Stacking and High Dynamic Range Imaging (Quinchun Qian, Bahadir K. Gunturk, and Aziz U. Batur)
+2. Focal Stack Compositing for Depth of Field Control (David E. Jacobs, Jongmin Baek, Marc Levoy)

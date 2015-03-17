@@ -1,0 +1,55 @@
+imStack1 =  im2double(imread('./images/fossil2/fossil2_1.jpg')); 
+imStack2 =  im2double(imread('./images/fossil2/fossil2_2.jpg')); 
+imStack3 =  im2double(imread('./images/fossil2/fossil2_3.jpg')); 
+imStack4 =  im2double(imread('./images/fossil2/fossil2_4.jpg')); 
+imStack5 =  im2double(imread('./images/fossil2/fossil2_5.jpg')); 
+imStack6 =  im2double(imread('./images/fossil2/fossil2_6.jpg')); 
+imStack7 =  im2double(imread('./images/fossil2/fossil2_7.jpg')); 
+imStack8 =  im2double(imread('./images/fossil2/fossil2_8.jpg')); 
+imStack = cat(4, imStack1, imStack2, imStack3, imStack4, imStack5, imStack6, imStack7, imStack8);
+
+imStack1 =  im2double(imread('./images/fossil1/fossil1_1.jpg')); 
+imStack2 =  im2double(imread('./images/fossil1/fossil1_2.jpg')); 
+imStack3 =  im2double(imread('./images/fossil1/fossil1_3.jpg')); 
+imStack4 =  im2double(imread('./images/fossil1/fossil1_4.jpg')); 
+imStack = cat(4, imStack1, imStack2, imStack3, imStack4);
+
+imStack1 =  im2double(imread('./images/rock/rock_01.jpg')); 
+imStack2 =  im2double(imread('./images/rock/rock_02.jpg')); 
+imStack3 =  im2double(imread('./images/rock/rock_03.jpg')); 
+imStack4 =  im2double(imread('./images/rock/rock_04.jpg')); 
+imStack5 =  im2double(imread('./images/rock/rock_05.jpg')); 
+imStack6 =  im2double(imread('./images/rock/rock_06.jpg'));  
+imStack7 =  im2double(imread('./images/rock/rock_07.jpg')); 
+imStack8 =  im2double(imread('./images/rock/rock_08.jpg')); 
+imStack9 =  im2double(imread('./images/rock/rock_09.jpg')); 
+imStack10 =  im2double(imread('./images/rock/rock_10.jpg')); 
+imStack11 =  im2double(imread('./images/rock/rock_11.jpg')); 
+imStack12 =  im2double(imread('./images/rock/rock_12.jpg')); 
+imStack = cat(4, imStack1, imStack2, imStack3, imStack4, imStack5, imStack6, imStack7, imStack8, imStack9, imStack10, imStack11, imStack12);
+
+imStack1 =  im2double(imread('./images/santa/santa_1.jpg')); 
+imStack2 =  im2double(imread('./images/santa/santa_2.jpg')); 
+imStack3 =  im2double(imread('./images/santa/santa_3.jpg')); 
+imStack4 =  im2double(imread('./images/santa/santa_4.jpg')); 
+imStack5 =  im2double(imread('./images/santa/santa_5.jpg')); 
+imStack6 =  im2double(imread('./images/santa/santa_6.jpg')); 
+imStack7 =  im2double(imread('./images/santa/santa_7.jpg')); 
+imStack8 =  im2double(imread('./images/santa/santa_8.jpg')); 
+imStack9 =  im2double(imread('./images/santa/santa_9.jpg')); 
+imStack10 =  im2double(imread('./images/santa/santa_10.jpg')); 
+imStack = cat(4, imStack1, imStack2, imStack3, imStack4, imStack5, imStack6, imStack7, imStack8, imStack9, imStack10);
+
+imStack1 =  im2double(imread('./images/circuit2/circuit2_1.jpg')); 
+imStack2 =  im2double(imread('./images/circuit2/circuit2_2.jpg')); 
+imStack3 =  im2double(imread('./images/circuit2/circuit2_3.jpg')); 
+imStack4 =  im2double(imread('./images/circuit2/circuit2_4.jpg'));  
+imStack5 =  im2double(imread('./images/circuit2/circuit2_5.jpg')); 
+imStack6 =  im2double(imread('./images/circuit2/circuit2_6.jpg')); 
+imStack = cat(4, imStack1, imStack2, imStack3, imStack4, imStack5, imStack6);
+
+imStack1 =  im2double(imread('./images/circuit1/circuit1_1.jpg')); 
+imStack2 =  im2double(imread('./images/circuit1/circuit1_2.jpg')); 
+imStack3 =  im2double(imread('./images/circuit1/circuit1_3.jpg')); 
+imStack4 =  im2double(imread('./images/circuit1/circuit1_4.jpg')); 
+imStack = cat(4, imStack1, imStack2, imStack3, imStack4);
